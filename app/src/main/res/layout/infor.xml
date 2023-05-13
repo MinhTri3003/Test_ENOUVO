@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="350dp"
+        android:layout_height="140dp"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginVertical="20dp"
+        android:background="@drawable/border_item"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="2dp">
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="10dp"
+            android:text="Rang Limite of Approval"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="170dp"
+            android:layout_marginVertical="10dp"
+            android:text="Minimum"
+            android:textColor="#171C8F"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="IDR"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="220dp"
+            android:layout_marginVertical="10dp"
+            />
+
+        <TextView
+            android:id="@+id/MiniNum"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textAlignment="textEnd"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="10dp"
+            />
+        <TextView
+            android:id="@+id/max"
+            android:layout_width="46dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="170dp"
+            android:layout_marginVertical="30dp"
+            android:text="Maximum"
+            android:textColor="#171C8F"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/IDR_2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:text="IDR"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="220dp"
+            android:layout_marginVertical="30dp"
+            />
+
+        <TextView
+            android:id="@+id/MaxNum"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="50,000"
+            android:textAlignment="textEnd"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="30dp"
+            />
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="50dp"
+            android:background="#D1D2D4" />
+        <TextView
+            android:id="@+id/NumOfApp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="60dp"
+            android:text="Number of Approval"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/NumApp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:text="1"
+            android:textAlignment="textEnd"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="270dp"
+            android:layout_marginVertical="60dp"
+            />
+        <View
+            android:layout_width="300dp"
+            android:layout_height="1dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="80dp"
+            android:background="#D1D2D4" />
+        <TextView
+            android:id="@+id/Approver"
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="90dp"
+            android:text="Approver 1"
+            android:textColor="@color/black"
+            android:textSize="10sp" />
+        <TextView
+            android:id="@+id/Approver_text"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:text="GROUPMG1, GROUPMG2"
+            android:textAlignment="textEnd"
+            android:textColor="#171C8F"
+            android:textSize="10sp"
+            android:layout_marginHorizontal="200dp"
+            android:layout_marginVertical="90dp"
+            />
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

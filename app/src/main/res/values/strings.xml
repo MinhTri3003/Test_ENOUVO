@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="tambah_new_matrix">Tambah new matrix</string>
+    <string name="approval_matrix">Approval Matrix</string>
+    <string name="transfer_online">Transfer Online</string>
+    <string name="transfer_online_2">Transfer Online</string>
+    <string name="default_2">Default</string>
+    <string name="default_1">Default</string>
+    <string name="select_feature">Select Feature</string>
+</resources>
